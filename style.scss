@@ -1,9 +1,28 @@
-@import "reset";
-@import "variables";
+@import "_reset";
+@import "_variables";
 
 .container {
     padding: 0 1 rem;
 }
 body{
-    background-color: bgColor;
+    background-color: $bgColor;
+    font-family: $fontFamily;
+    font-size: $fontSize;
+    color: $fontColor
+
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: $navBgColor;
+    .brand{
+        img{
+            width: 80px;
+            border: $navBgColor;
+            border-radius: 30%;
+            padding: 10px;
+            margin: 10px;
+        }
+    }
 }

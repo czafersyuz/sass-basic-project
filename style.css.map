@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CACzB;;ADCD,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,OAAO;CACnB;;AACD,AAAA,IAAI,CAAA;EACA,gBAAgB,EEJV,IAAI;EFKV,WAAW,EEFF,QAAQ;EFGjB,SAAS,EEJF,MAAM;EFKb,KAAK,EENG,KAAK;CFQhB;;AAED,AAAA,GAAG,CAAA;EACC,OAAO,EAAC,IAAI;EACZ,eAAe,EAAE,aAAa;EAC9B,gBAAgB,EEVP,OAAO;CFoBnB;;AAbD,AAKQ,GALL,CAIC,MAAM,CACF,GAAG,CAAA;EACC,KAAK,EAAE,IAAI;EACX,MAAM,EEdL,OAAO;EFeR,aAAa,EAAE,GAAG;EAClB,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;CACf",
     "sources": [
-        "tyle.scss"
+        "tyle.scss",
+        "reset.scss",
+        "variables.scss"
     ],
     "names": [],
     "file": "style.css"
