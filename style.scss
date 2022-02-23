@@ -26,3 +26,49 @@ nav{
         }
     }
 }
+
+.navbar{
+    margin: 10px;
+    ul{
+        list-style-type: none;
+        display: flex;
+        li{
+            a{
+                text-decoration: none;
+                padding: 5px;
+                color: black;
+                font-size: $myLinkSize;
+            }
+        }input{
+            width: 60px;
+        }
+    }
+}
+//? SLIDER
+//?----------------------------------------
+.slider {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $sliderBgColor;
+    .left {
+      margin-top: 20px;
+      button {
+        padding: 10px;
+        border-radius: 10px;
+        margin: 10px;
+        background-color: $navBgColor;
+        font-size: $myLinkSize;
+        border: 2px solid gray;
+  
+        /***  IMPORTANT  ***/
+        &:hover {
+          background-color: pink;
+          border: 2px solid pink;
+        }
+      }
+    }
+    img {
+      width: 30%;
+    }
+  }
+  

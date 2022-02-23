@@ -31,4 +31,59 @@ nav .brand img {
   padding: 10px;
   margin: 10px;
 }
+
+.navbar {
+  margin: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  font-size: 19px;
+}
+
+.navbar ul input {
+  width: 60px;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #cc6699;
+}
+
+.slider .left {
+  margin-top: 20px;
+}
+
+.slider .left button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #30a7c3;
+  font-size: 19px;
+  border: 2px solid gray;
+  /***  IMPORTANT  ***/
+}
+
+.slider .left button:hover {
+  background-color: pink;
+  border: 2px solid pink;
+}
+
+.slider img {
+  width: 30%;
+}
 /*# sourceMappingURL=style.css.map */
