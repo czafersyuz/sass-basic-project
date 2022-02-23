@@ -1,5 +1,7 @@
 @import "_reset";
 @import "_variables";
+@import "mixin"
+@import "article"
 
 .container {
     padding: 0 1 rem;
@@ -72,3 +74,19 @@ nav{
     }
   }
   
+.content{
+    .cards{
+        display: flex;
+        .card1{
+            @include myBox{}
+        }
+    }
+}
+
+
+article{
+    article2{
+        @extend .article1
+        background-color:purple;
+    }
+}
